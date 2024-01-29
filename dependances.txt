@@ -1,0 +1,38 @@
+For windows
+
+pip install opencv-python
+pip install matplotlib
+pip install tf2onnx==1.13.0
+pip install onnx==1.14.1
+pip install onnxruntime-directml
+pip install openvino-dev
+pip install openvino
+pip install tensorflow-gpu==2.10.0
+pip install protobuf==3.20.2
+pip install nncf
+pip install onnxconverter_common
+pip install lpips
+pip install dists-pytorch
+
+
+For linux
+
+pip install opencv-python
+pip install matplotlib
+pip install tf2onnx==1.13.0
+pip install onnx==1.14.1
+pip install onnxruntime-gpu
+pip install openvino-dev
+pip install openvino
+pip install tensorflow==2.12.0
+pip install nncf
+pip install onnxconverter_common
+
+pip install lpips
+pip install dists-pytorch
+
+pip install --upgrade protobuf
+pip install protobuf==3.20.2
+
+pip install rembg[gpu] 
+cuda 11.8, TensorRT 8.6 cnDNN 8.9 for cuda 11.x
